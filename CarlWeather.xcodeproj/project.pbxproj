@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260839421CA0684100B7E1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260839411CA0684100B7E1D9 /* Assets.xcassets */; };
+		261E3B751C9713F000E11E6B /* saved.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261E3B741C9713F000E11E6B /* saved.txt */; };
+		262802E71C49A4A700E6F6C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 262802E61C49A4A700E6F6C8 /* images */; };
+		2634B9421BA0CA5C00E9D09E /* PlotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634B9411BA0CA5C00E9D09E /* PlotScene.swift */; };
 		268F31B31B977CD00036DA84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31B21B977CD00036DA84 /* AppDelegate.swift */; };
 		268F31B51B977CD00036DA84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31B41B977CD00036DA84 /* ViewController.swift */; };
 		268F31B81B977CD00036DA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268F31B61B977CD00036DA84 /* Main.storyboard */; };
-		268F31BA1B977CD00036DA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268F31B91B977CD00036DA84 /* Assets.xcassets */; };
 		268F31BD1B977CD00036DA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268F31BB1B977CD00036DA84 /* LaunchScreen.storyboard */; };
 		268F31C81B977CD00036DA84 /* CarlWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31C71B977CD00036DA84 /* CarlWeatherTests.swift */; };
 		268F31D31B977CD00036DA84 /* CarlWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31D21B977CD00036DA84 /* CarlWeatherUITests.swift */; };
+		268F31E11B9788B80036DA84 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31E01B9788B80036DA84 /* Day.swift */; };
+		268F31E31B9A0D3D0036DA84 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31E21B9A0D3D0036DA84 /* Month.swift */; };
+		268F31E51B9A0D6D0036DA84 /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31E41B9A0D6D0036DA84 /* Year.swift */; };
+		268F31E91B9A26A00036DA84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F31E81B9A26A00036DA84 /* Result.swift */; };
+		26F173031BB5F2E60035F6F2 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F173021BB5F2E60035F6F2 /* Custom.swift */; };
+		26F173051BBB34AB0035F6F2 /* CustomResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F173041BBB34AB0035F6F2 /* CustomResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260839411CA0684100B7E1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261E3B741C9713F000E11E6B /* saved.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saved.txt; sourceTree = "<group>"; };
+		262802E61C49A4A700E6F6C8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../images; sourceTree = "<group>"; };
+		2634B9411BA0CA5C00E9D09E /* PlotScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlotScene.swift; path = ../PlotScene.swift; sourceTree = "<group>"; };
 		268F31AF1B977CD00036DA84 /* CarlWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268F31B21B977CD00036DA84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268F31B41B977CD00036DA84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		268F31B71B977CD00036DA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		268F31B91B977CD00036DA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268F31BC1B977CD00036DA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268F31BE1B977CD00036DA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268F31C31B977CD00036DA84 /* CarlWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +59,12 @@
 		268F31CE1B977CD00036DA84 /* CarlWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268F31D21B977CD00036DA84 /* CarlWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlWeatherUITests.swift; sourceTree = "<group>"; };
 		268F31D41B977CD00036DA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268F31E01B9788B80036DA84 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		268F31E21B9A0D3D0036DA84 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		268F31E41B9A0D6D0036DA84 /* Year.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Year.swift; path = ../Year.swift; sourceTree = "<group>"; };
+		268F31E81B9A26A00036DA84 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../Result.swift; sourceTree = "<group>"; };
+		26F173021BB5F2E60035F6F2 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Custom.swift; path = ../Custom.swift; sourceTree = "<group>"; };
+		26F173041BBB34AB0035F6F2 /* CustomResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomResult.swift; path = ../CustomResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				268F31B21B977CD00036DA84 /* AppDelegate.swift */,
+				268F31E41B9A0D6D0036DA84 /* Year.swift */,
 				268F31B41B977CD00036DA84 /* ViewController.swift */,
+				26F173021BB5F2E60035F6F2 /* Custom.swift */,
+				2634B9411BA0CA5C00E9D09E /* PlotScene.swift */,
+				268F31E81B9A26A00036DA84 /* Result.swift */,
+				260839411CA0684100B7E1D9 /* Assets.xcassets */,
+				26F173041BBB34AB0035F6F2 /* CustomResult.swift */,
+				268F31E21B9A0D3D0036DA84 /* Month.swift */,
+				261E3B741C9713F000E11E6B /* saved.txt */,
 				268F31B61B977CD00036DA84 /* Main.storyboard */,
-				268F31B91B977CD00036DA84 /* Assets.xcassets */,
+				268F31E01B9788B80036DA84 /* Day.swift */,
 				268F31BB1B977CD00036DA84 /* LaunchScreen.storyboard */,
 				268F31BE1B977CD00036DA84 /* Info.plist */,
+				262802E61C49A4A700E6F6C8 /* images */,
 			);
 			path = CarlWeather;
 			sourceTree = "<group>";
@@ -192,6 +219,7 @@
 				TargetAttributes = {
 					268F31AE1B977CD00036DA84 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F32NER3Q9Y;
 					};
 					268F31C21B977CD00036DA84 = {
 						CreatedOnToolsVersion = 7.0;
@@ -229,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				268F31BD1B977CD00036DA84 /* LaunchScreen.storyboard in Resources */,
-				268F31BA1B977CD00036DA84 /* Assets.xcassets in Resources */,
+				261E3B751C9713F000E11E6B /* saved.txt in Resources */,
+				260839421CA0684100B7E1D9 /* Assets.xcassets in Resources */,
+				262802E71C49A4A700E6F6C8 /* images in Resources */,
 				268F31B81B977CD00036DA84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268F31E31B9A0D3D0036DA84 /* Month.swift in Sources */,
 				268F31B51B977CD00036DA84 /* ViewController.swift in Sources */,
+				26F173031BB5F2E60035F6F2 /* Custom.swift in Sources */,
+				268F31E51B9A0D6D0036DA84 /* Year.swift in Sources */,
+				26F173051BBB34AB0035F6F2 /* CustomResult.swift in Sources */,
 				268F31B31B977CD00036DA84 /* AppDelegate.swift in Sources */,
+				268F31E91B9A26A00036DA84 /* Result.swift in Sources */,
+				268F31E11B9788B80036DA84 /* Day.swift in Sources */,
+				2634B9421BA0CA5C00E9D09E /* PlotScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +435,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CarlWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.CarlWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -409,10 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CarlWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.CarlWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -483,6 +528,7 @@
 				268F31D91B977CD00036DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268F31DA1B977CD00036DA84 /* Build configuration list for PBXNativeTarget "CarlWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +537,7 @@
 				268F31DC1B977CD00036DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268F31DD1B977CD00036DA84 /* Build configuration list for PBXNativeTarget "CarlWeatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +546,7 @@
 				268F31DF1B977CD00036DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
